@@ -1,4 +1,9 @@
 
+import Content from "./components/Content"
+import Message from "./components/Message"
+import ExpertSection from "./components/ExpertSection"
+import Testimonial from "@/components/Testimonial"
+
   export const metadata={
     title: "About Page",
   }
@@ -8,7 +13,11 @@ const About = () => {
 
   return (
     <div >
-        This is about page 
+       
+      <Content/>
+      <Message/>
+      <ExpertSection/>
+      <Testimonial/>
     </div>
   )
 }

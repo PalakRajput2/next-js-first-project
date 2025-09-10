@@ -83,8 +83,8 @@ const CategoryPage = () => {
             </div>
 
             {/* Product Info */}
-            <div className="mt-4 text-center">
-              <h3 className="text-sm font-semibold tracking-wide uppercase text-gray-800">
+            <div className="mt-4 text-center space-y-2">
+              <h3 className="text-sm font-semibold tracking-wide uppercase text-gray-800 ">
                 {product.name}
               </h3>
               <p className="mt-1 text-gray-600">${product.price}</p>

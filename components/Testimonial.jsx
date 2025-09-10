@@ -45,11 +45,11 @@ const Testimonial = () => {
                 <div className=" flex justify-center items-center gap-12">
                     <button
                         onClick={prevTestimonial}
-                        className=" p-3  text-gray-600 hover:text-gray-900"
+                        className=" p-3  text-gray-600 hover:text-gray-900 cursor-pointer"
                     >
                         <FaArrowLeft size={24} className="" />
                     </button>
-                    <div>
+                    <div className="lg:w-[800px]">
                         <Image
                             src={testimonials[current].img}
                             width={120}
@@ -57,7 +57,7 @@ const Testimonial = () => {
                             alt={testimonials[current].name}
                             className=" rounded-full mx-auto mb-8 size-[130px] object-cover"
                         />
-                        <p className="text-xl md:text-2xl italic text-gray-600 mb-8 px-4">
+                        <p className="text-xl md:text-2xl italic text-gray-600 mb-8 px-5">
                             “{testimonials[current].text}”
                         </p>
 
@@ -68,7 +68,7 @@ const Testimonial = () => {
                     </div>
                     <button
                         onClick={nextTestimonial}
-                        className="p-3 text-gray-600 hover:text-gray-900"
+                        className="p-3 text-gray-600 hover:text-gray-900 cursor-pointer" 
                     >
                         <FaArrowRight size={24} />
                     </button>

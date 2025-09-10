@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 const Footer = () => {
     return (
-        <footer className="bg-[#fdf9f3] text-gray-800 px-8 py-15 text-sm font-light">
+        <footer className="bg-[#fdf9f3] text-gray-800 px-8 py-15 text-sm font-light bottom-0 ">
             <div className="max-w-7xl mx-auto grid grid-cols-2  md:grid-cols-4 gap-8">
                 {/* Customer Service */}
                 <div>
@@ -59,11 +59,12 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
                 <p className="text-xs text-gray-500">© 2018 Qode Interactive, All Rights Reserved</p>
 
-                {/* Payment Icons (You can replace these with real icons or images) */}
+                {/* Payment Icons*/}
                 <div className="flex space-x-4 cursor-pointer">
                     <Link href="/">
                     <Image src="/images/footer.png" width={200} height={100} alt="footer" />
-                    </Link>   </div>
+                    </Link>
+                 </div>
 
                 {/* Social Links */}
                 <div className="text-xs space-x-6 tracking-widest uppercase">

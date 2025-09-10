@@ -18,6 +18,7 @@ const Home=()=>{
     <NewsLetter/>
     <Blog/>
     <Testimonial/>
+    
     </div>
      )
 }
