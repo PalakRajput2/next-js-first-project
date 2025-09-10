@@ -2,7 +2,7 @@ import React from 'react';
 
 const NewsLetter = () => {
   return (
-    <section className="relative  w-full h-[400px] md:h-[550px] bg-[url('/images/friends2.jpg')] bg-contain sm:bg-cover bg-top bg-fixed flex items-center justify-center mt-10 md:mt-0">
+    <section className="relative  w-full h-[400px] md:h-[550px] bg-[url('/friends2.jpg')] bg-contain sm:bg-cover bg-top bg-fixed flex items-center justify-center mt-10 md:mt-0">
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
