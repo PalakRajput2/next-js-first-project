@@ -28,7 +28,7 @@ const Message = () => {
               alt="Signature"
               width={170}
               height={80}
-             
+             style={{ width:"auto" }}
             />
           </div>
         </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
     return (
         <footer className="bg-[#fdf9f3] text-gray-800 px-8 py-15 text-sm font-light bottom-0 ">
-            <div className="max-w-7xl mx-auto grid grid-cols-2  md:grid-cols-4 gap-8">
+            <div className="max-w-7xl mx-auto grid grid-cols-2  md:grid-cols-4 gap-8 text-center md:text-left">
                 {/* Customer Service */}
                 <div>
                     <h4 className="font-semibold tracking-wide uppercase text-sm mb-4">Customer Service</h4>
@@ -56,13 +56,13 @@ const Footer = () => {
             <hr className="my-10 border-gray-200" />
 
             {/* Bottom Bar */}
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-                <p className="text-xs text-gray-500">© 2018 Qode Interactive, All Rights Reserved</p>
+            <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-5">
+                <p className="text-xs text-gray-500">© 2025 Qode Interactive, All Rights Reserved</p>
 
                 {/* Payment Icons*/}
                 <div className="flex space-x-4 cursor-pointer">
                     <Link href="/">
-                    <Image src="/images/footer.png" width={200} height={100} alt="footer" />
+                    <Image src="/images/footer.png" width={200} height={100} alt="footer" style={{ width:"auto" }} className="h-6"/>
                     </Link>
                  </div>
 
