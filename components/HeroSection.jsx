@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="md:h-[400px] lg:h-[700px] relative bg-gray-100 py-16 px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center justify-between">
+    <section className="font-play md:h-[400px] lg:h-[700px] relative bg-gray-100 py-16 px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center justify-between">
       
       {/* Text Content */}
       <div className="max-w-xl text-center md:text-left space-y-8">
