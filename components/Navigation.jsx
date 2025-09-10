@@ -16,19 +16,21 @@ const Navigation = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex justify-center items-center gap-5 lg:gap-10 flex-1">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/serverComp">ServerComp</Link></li>
-          <li><Link href="/service">Service</Link></li>
-          <li><Link href="/contact">Contact</Link></li>
+        <ul className="hidden md:flex justify-center items-center gap-5 lg:gap-10 flex-1 ">
+          <li><Link href="/" className="hover:text-xl hover:text-pink-500">Home</Link></li>
+          <li><Link href="/about" className="hover:text-xl hover:text-pink-500">About</Link></li>
+          <li><Link href="/serverComp" className="hover:text-xl hover:text-pink-500">ServerComp</Link></li>
+          <li><Link href="/service" className="hover:text-xl hover:text-pink-500">Service</Link></li>
+          <li><Link href="/contact" className="hover:text-xl hover:text-pink-500">Contact</Link></li>
         </ul>
 
         {/* Desktop Button */}
         <div className="hidden md:flex justify-end">
-          <button className="h-10 px-4 rounded-lg bg-pink-400 text-white hover:bg-pink-600 transition">
+          <Link  href="/">
+          <button className="h-10 w-30 px-4 rounded-lg bg-pink-400 text-white hover:bg-pink-600 transition text-[18px] cursor-pointer">
             Get started
           </button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -48,11 +50,11 @@ const Navigation = () => {
             <li><Link href="/serverComp" onClick={() => setIsOpen(false)}>Server Component</Link></li>
             <li><Link href="/service" onClick={() => setIsOpen(false)}>Service</Link></li>
             <li><Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
-            <li>
-              <button className="h-10 px-4 rounded-lg bg-pink-400 text-white hover:bg-pink-600 transition">
+          
+              <button className="h-10 px-4 rounded-lg   cursor-hand bg-pink-400 text-white hover:bg-pink-600 transition">
                 Get started
               </button>
-            </li>
+         
           </ul>
         </div>
       )}
