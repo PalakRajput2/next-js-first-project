@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const NewsLetter = () => {
@@ -19,9 +20,12 @@ const NewsLetter = () => {
             placeholder="Email Address"
             className="w-full md:w-[440px] px-4 py-3 focus:outline-none text-gray-500 bg-white"
           />
-          <button className="bg-pink-500 hover:bg-pink-600 cursor-pointer text-white px-6 py-3  transition">
+          <Link href="/login">
+            <button className="bg-pink-500 hover:bg-pink-600 cursor-pointer text-white px-6 py-3  transition">
             SUBSCRIBE
           </button>
+          </Link>
+        
         </div>
       </div>
 

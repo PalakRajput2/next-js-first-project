@@ -45,12 +45,12 @@ const Message = () => {
 
           {/* Play Button */}
           <div className="absolute inset-0 flex items-center justify-center">
-            <Link href="/" passHref>
+            <Link href="/login" passHref>
               <button
                 aria-label="Play video"
                 className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white shadow-lg flex items-center justify-center hover:scale-105 transition"
               >
-                <Play size={32} className="text-pink-500 fill-pink-500" />
+                <Play size={32} className="text-pink-500 fill-pink-500 cursor-pointer" />
               </button>
             </Link>
           </div>

@@ -84,4 +84,18 @@ export const flowerData = [
     price: 18,
     image: "/images/pink2.jpg",
   },
+  {
+    id: 13,
+    name: "White Tulip",
+    category: "Tulips",
+    price: 12,
+    image: "/images/lily.jpg",
+  },
+  {
+    id: 14,
+    name: "Purple Tulip",
+    category: "Tulips",
+    price: 12,
+    image: "/images/purple_flower.jpg",
+  },
 ];

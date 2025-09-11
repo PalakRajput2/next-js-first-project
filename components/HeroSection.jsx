@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const images = [
   '/images/lily.jpg',
@@ -32,9 +33,12 @@ const HeroSection = () => {
         <p className="text-gray-600 text-base sm:text-lg md:text-xl">
           Brighten someone’s day with our fresh and beautiful flower collection. Perfect for every occasion.  
         </p>
-        <button className="mt-4 w-40 px-8 py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold rounded-full shadow-md transition duration-300 cursor-pointer">
+     <Link href="/login" >
+     <button className="mt-4 w-40 px-8 py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold rounded-full shadow-md transition duration-300 cursor-pointer">
           Shop Now
         </button>
+     </Link>
+        
       </div>
 
      

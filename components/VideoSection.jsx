@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Play, Heart } from "lucide-react";
-
+import Link from "next/link";
 const VideoSection = () => {
   return (
     <section className="md:h-[650px] bg-gray-100 py-16 px-6 md:px-20 flex flex-col md:flex-row items-center gap-12">
@@ -16,9 +16,12 @@ const VideoSection = () => {
         />
         {/* Play Button */}
         <button className="absolute inset-0 flex items-center justify-center">
-          <div className="size-20 md:w-25 md:h-25 rounded-full bg-white shadow-lg flex items-center justify-center hover:scale-105 transition">
-            <Play size={46} className="text-pink-500 fill-pink-500 cursor-pointer" />
-          </div>
+          <div className="size-15 md:w-25 md:h-25 rounded-full bg-white shadow-lg flex items-center justify-center hover:scale-105 transition">
+
+            <Link href="/login">
+              <Play  className="size-8 md:size-13 text-pink-500 fill-pink-500 cursor-pointer" />
+         </Link>
+           </div>
         </button>
       </div>
 
