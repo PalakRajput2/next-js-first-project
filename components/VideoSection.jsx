@@ -12,11 +12,11 @@ const VideoSection = () => {
           height={110}
           alt="Image"
      
-          className="w-[700px] h-[430px]"
+          className="size-[300px] md:w-[700px] md:h-[430px]"
         />
         {/* Play Button */}
         <button className="absolute inset-0 flex items-center justify-center">
-          <div className="w-25 h-25 rounded-full bg-white shadow-lg flex items-center justify-center hover:scale-105 transition">
+          <div className="size-20 md:w-25 md:h-25 rounded-full bg-white shadow-lg flex items-center justify-center hover:scale-105 transition">
             <Play size={46} className="text-pink-500 fill-pink-500 cursor-pointer" />
           </div>
         </button>

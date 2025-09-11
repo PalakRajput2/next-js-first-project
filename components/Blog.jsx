@@ -6,19 +6,19 @@ const experts = [
     name: "Flower Power",
     desc: "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per",
     img: "/images/blog1.jpg",
-    date: "27.04.2018",
+    date: "27.04.2024",
   },
   {
     name: "Local Florists",
     desc: "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per",
     img: "/images/lily.jpg",
-    date: "03.05.2018",
+    date: "03.05.2025",
   },
   {
     name: "Flower Beauty",
     desc: "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per",
     img: "/images/orange.jpg",
-    date: "03.05.2018",
+    date: "03.07.2024",
   },
 ];
 
@@ -55,9 +55,9 @@ const Blog = () => {
             />
 
             {/* Text Info */}
-            <div className="flex flex-col gap-3 text-center mb-5 ">
+            <div className="flex flex-col gap-3 text-center mb-2 md:mb-5 ">
               <p className="font-medium text-gray-900 text-[22px]">{expert.name}</p>
-              <p className="text-gray-500 text-[20px]">{expert.desc}</p>
+              <p className="text-gray-500  text-[16px] md:text-xl">{expert.desc}</p>
             </div>
 
           </div>

@@ -10,10 +10,12 @@ const Navigation = () => {
     <header className="fixed top-0 left-0 w-full h-20 z-50 bg-white shadow-md">
       <div className="flex items-center justify-between h-full px-6 md:px-10">
         {/* Logo */}
-        <div className="flex tracking-[6px] items-center">
-          <p className="md:text-3xl text-xl text-pink-600">FIOR</p>
+        <div className="flex  tracking-[6px] items-center">
+          <Link href="/" className="flex">
+             <p className="md:text-3xl text-xl text-pink-600">FIOR</p>
           <p className="md:text-3xl text-xl text-black">ELLO</p>
-        </div>
+      </Link>
+         </div>
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex justify-center items-center gap-5 lg:gap-10 flex-1 ">
@@ -26,7 +28,7 @@ const Navigation = () => {
 
         {/* Desktop Button */}
         <div className="hidden md:flex justify-end">
-          <Link  href="/">
+          <Link  href="/login">
           <button className="h-10 w-30 px-4 rounded-lg bg-pink-400 text-white hover:bg-pink-600 transition text-[18px] cursor-pointer">
             Get started
           </button>

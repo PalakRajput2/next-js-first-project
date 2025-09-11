@@ -1,3 +1,5 @@
+import Content from "../service/components/Content"
+
  export const metadata={
     title: "Service Page",
     description :"This is my about page",
@@ -7,7 +9,7 @@
 const Service = () => {
   return (
     <div>
-        This is Service page 
+        <Content/> 
     </div>
   )
 }
