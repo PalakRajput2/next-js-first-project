@@ -21,7 +21,7 @@ const Navigation = () => {
         <ul className="hidden md:flex justify-center items-center gap-5 lg:gap-10 flex-1 ">
           <li><Link href="/" className="hover:text-xl hover:text-pink-500">Home</Link></li>
           <li><Link href="/about" className="hover:text-xl hover:text-pink-500">About</Link></li>
-          <li><Link href="/serverComp" className="hover:text-xl hover:text-pink-500">ServerComp</Link></li>
+          <li><Link href="/shop/items" className="hover:text-xl hover:text-pink-500">Shop</Link></li>
           <li><Link href="/service" className="hover:text-xl hover:text-pink-500">Service</Link></li>
           <li><Link href="/contact" className="hover:text-xl hover:text-pink-500">Contact</Link></li>
         </ul>
@@ -49,7 +49,7 @@ const Navigation = () => {
           <ul className="flex flex-col justify-center items-center gap-6 py-6 text-black">
             <li><Link href="/" onClick={() => setIsOpen(false)} >Home</Link></li>
             <li><Link href="/about" onClick={() => setIsOpen(false)}>About</Link></li>
-            <li><Link href="/serverComp" onClick={() => setIsOpen(false)}>Server Component</Link></li>
+            <li><Link href="/shop/items" onClick={() => setIsOpen(false)}>Shop Items</Link></li>
             <li><Link href="/service" onClick={() => setIsOpen(false)}>Service</Link></li>
             <li><Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
           

@@ -1,0 +1,87 @@
+// app/(shop)/items/data.js
+
+export const flowerData = [
+  {
+    id: 1,
+    name: "Red Rose",
+    category: "Roses",
+    price: 15,
+    image: "/images/red_flower.jpg",
+  },
+  {
+    id: 2,
+    name: "White Tulip",
+    category: "Tulips",
+    price: 12,
+    image: "/images/lily.jpg",
+  },
+  {
+    id: 3,
+    name: "Sunflower Joy",
+    category: "Sunflowers",
+    price: 10,
+    image: "/images/yellow_flower.jpg",
+  },
+  {
+    id: 4,
+    name: "Pink Lily",
+    category: "Lilies",
+    price: 18,
+    image: "/images/pink.jpg",
+  },
+  {
+    id: 5,
+    name: "Yellow Tulip",
+    category: "Tulips",
+    price: 13,
+    image: "/images/purple_flower.jpg",
+  },{
+    id: 6,
+    name: "Red Rose",
+    category: "Roses",
+    price: 15,
+    image: "/images/red_flower.jpg",
+  },
+  {
+    id: 7,
+    name: "White Tulip",
+    category: "Tulips",
+    price: 12,
+    image: "/images/lily.jpg",
+  },
+  {
+    id: 8,
+    name: "Sunflower Joy",
+    category: "Sunflowers",
+    price: 10,
+    image: "/images/orange.jpg",
+  },
+  {
+    id: 9,
+    name: "Pink Lily",
+    category: "Lilies",
+    price: 18,
+    image: "/images/lily.jpg",
+  },
+  {
+    id: 10,
+    name: "Yellow Tulip",
+    category: "Tulips",
+    price: 13,
+    image: "/images/purple_flower.jpg",
+  },
+  {
+    id: 11,
+    name: "Orange Flower",
+    category: "Sunflowers",
+    price: 17,
+    image: "/images/orange2.jpg",
+  },
+  {
+    id: 12,
+    name: "Pink Roses",
+    category: "Roses",
+    price: 18,
+    image: "/images/pink2.jpg",
+  },
+];
