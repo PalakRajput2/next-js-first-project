@@ -26,11 +26,11 @@ const experts = [
 
 const ExpertSection = () => {
   return (
-    <section className="sm:h-[780px] md:h-[700px] gap-10 mt-10 sm:mt-5   bg-gray-50 flex flex-col justify-center items-center px-6 md:px-20">
+    <section className="sm:h-[780px] md:h-[700px] gap-10  sm:mt-5   bg-gray-50 flex flex-col justify-center items-center px-6 md:px-20">
       
       {/* Heading */}
-      <div className="space-y-6 text-center max-w-2xl">
-        <h2 className="text-5xl ">Flower Experts</h2>
+      <div className="space-y-6 text-center max-w-2xl mt-10">
+        <h2 className="text-4xl md:text-5xl text-black">Flower Experts</h2>
         <p className="text-gray-500 text-lg">
           A perfect blend of creativity, energy, communication, happiness and love.
           <br /> Let us arrange a smile for you.

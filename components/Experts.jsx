@@ -30,7 +30,7 @@ const Experts = () => {
       
       {/* Heading */}
       <div className="space-y-6 text-center max-w-2xl">
-        <h2 className="text-5xl ">Flower Experts</h2>
+        <h2 className=" text-4xl md:text-5xl text-black">Flower Experts</h2>
         <p className="text-gray-500 text-lg">
           A perfect blend of creativity, energy, communication, happiness and love.
           <br /> Let us arrange a smile for you.

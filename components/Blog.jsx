@@ -28,7 +28,7 @@ const Blog = () => {
       
       {/* Heading */}
       <div className="flex flex-col justify-center space-y-6 text-center mt-10 md:mt-0 max-w-2xl">
-        <h2 className="text-5xl">From Our Blog</h2>
+        <h2 className="text-4xl lg:text-5xl text-black">From Our Blog</h2>
         <p className="text-gray-500 text-[20px]">
           A perfect blend of creativity, energy, communication, happiness and love. Let us
           arrange a smile for you.
@@ -41,7 +41,7 @@ const Blog = () => {
           <div key={index} className="flex flex-col items-center justify-center space-y-7 mb-2 md:mb-0 relative">
             
             {/* Date Badge */}
-            <div className="absolute top-3  md:left-7 bg-white text-sm px-3 py-1 font-semibold shadow-md z-10 transition-transform duration-500 hover:scale-110 hover:text-pink-400 cursor-pointer">
+            <div className="absolute top-3  md:left-7 bg-white text-black text-sm px-3 py-1 font-semibold shadow-md z-10 transition-transform duration-500 hover:scale-110 hover:text-pink-400 cursor-pointer">
               {expert.date}
             </div>
 

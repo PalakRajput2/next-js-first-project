@@ -1,13 +1,15 @@
+import ContactForm from "./components/ContactForm"
+import Map from "./components/Map"
 
 
   export const metadata={
-    title: "Contact Page",
+    title: "Contact Us",
   }
 const Contact = () => {
   return (
     <div className="">
-      
-        This is Contact page 
+        <Map/>
+        <ContactForm/>
     </div>
   )
 }

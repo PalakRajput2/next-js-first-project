@@ -57,12 +57,12 @@ const Testimonial = () => {
                             alt={testimonials[current].name}
                             className=" rounded-full mx-auto mb-8 size-[130px] object-cover"
                         />
-                        <p className="text-xl md:text-2xl italic text-gray-600 mb-8 px-5">
+                        <p className="text-sm md:text-2xl italic text-gray-600 mb-8 px-5">
                             “{testimonials[current].text}”
                         </p>
 
                         {/* Name and Role */}
-                        <h3 className="text-xl  mb-1">{testimonials[current].name}</h3>
+                        <h3 className="text-xl  text-black mb-1">{testimonials[current].name}</h3>
                         <p className="text-gray-500 mb-6">{testimonials[current].role}</p>
 
                     </div>

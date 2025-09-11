@@ -12,7 +12,7 @@ const Navigation = () => {
         {/* Logo */}
         <div className="flex tracking-[6px] items-center">
           <p className="md:text-3xl text-xl text-pink-600">FIOR</p>
-          <p className="md:text-3xl text-xl">ELLO</p>
+          <p className="md:text-3xl text-xl text-black">ELLO</p>
         </div>
 
         {/* Desktop Navigation */}
@@ -35,7 +35,7 @@ const Navigation = () => {
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex">
-          <button onClick={() => setIsOpen(!isOpen)}>
+          <button onClick={() => setIsOpen(!isOpen)} className="text-black">
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
@@ -44,8 +44,8 @@ const Navigation = () => {
       {/* Mobile Navigation Dropdown */}
       {isOpen && (
         <div className="md:hidden bg-white shadow-md absolute top-20 left-0 w-full">
-          <ul className="flex flex-col justify-center items-center gap-6 py-6">
-            <li><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
+          <ul className="flex flex-col justify-center items-center gap-6 py-6 text-black">
+            <li><Link href="/" onClick={() => setIsOpen(false)} >Home</Link></li>
             <li><Link href="/about" onClick={() => setIsOpen(false)}>About</Link></li>
             <li><Link href="/serverComp" onClick={() => setIsOpen(false)}>Server Component</Link></li>
             <li><Link href="/service" onClick={() => setIsOpen(false)}>Service</Link></li>
