@@ -1,4 +1,5 @@
 import Content from "../service/components/Content"
+import FAQ from "./components/FAQ"
 
  export const metadata={
     title: "Service Page",
@@ -10,6 +11,7 @@ const Service = () => {
   return (
     <div>
         <Content/> 
+        <FAQ/>
     </div>
   )
 }

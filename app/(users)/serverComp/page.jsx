@@ -1,12 +1,14 @@
+import { RESPONSE_LIMIT_DEFAULT } from "next/dist/server/api-utils";
+
 const ServerComp = async () => {
   const URL = "https://jsonplaceholder.typicode.com/posts";
 
-  const res = await fetch(URL, { cache: "no-store" }); // prevents stale data
+  const res = await fetch(URL, { cache: "no-store" } ); // prevents stale data
   const data = await res.json();
 
   return (
     <section className="p-10 bg-gray-50">
-      <h1 className="text-3xl font-bold mb-6 text-center text-indigo-600">
+      <h1 className="text-3xl font-bold mb-6 text-center text-pink-600">
         Server Component
       </h1>
 

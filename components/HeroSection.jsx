@@ -38,13 +38,13 @@ const HeroSection = () => {
       </div>
 
      
-      <div className="mt-10 md:pr-20 md:mt-0 md:ml-10 flex justify-center md:justify-end w-full md:w-1/2">
+      <div className="mt-10 md:mt-0 md:ml-10 flex justify-center md:justify-end w-full md:w-1/2">
         <Image
           src={images[currentIndex]}
-          width={400}
-          height={400}
+          width={300}
+          height={300}
           alt={`Hero image ${currentIndex + 1}`}
-          className="w-[250px] sm:w-[350px] md:w-[440px] h-[300px] md:h-[350px] lg:h-[500px] rounded-xl md:rounded-2xl shadow-lg transform lg:rotate-10 transition-transform duration-800"
+          className=" h-[300px] sm:w-[350px] md:w-[480px]  md:h-[330px] lg:h-[490px] rounded-xl md:rounded-2xl  shadow-lg transform md:rotate-10 transition-transform duration-800"
           priority={true}
         />
       </div>

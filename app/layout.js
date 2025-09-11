@@ -2,7 +2,7 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "Home Page",
+  title: "Fiorello - A Flower Shop and Florist",
   icons: {
     icon: "/flower3.svg",
   },

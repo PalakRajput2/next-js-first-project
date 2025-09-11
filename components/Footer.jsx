@@ -8,7 +8,7 @@ const Footer = () => {
                 <div>
                     <h4 className="font-semibold tracking-wide uppercase text-sm mb-4">Customer Service</h4>
                     <ul className="space-y-2 text-gray-500">
-                        <li><Link href="#" className="hover:underline">Help & Contact Us</Link></li>
+                        <li><Link href="/contact" className="hover:underline">Help & Contact Us</Link></li>
                         <li><Link href="#" className="hover:underline">Returns & Refunds</Link></li>
                         <li><Link href="#" className="hover:underline">Online Stores</Link></li>
                         <li><Link href="#" className="hover:underline">Terms & Conditions</Link></li>
@@ -24,7 +24,7 @@ const Footer = () => {
                         <li><Link href="#" className="hover:underline">Order Tracking</Link></li>
                         <li><Link href="#" className="hover:underline">FAQ Page</Link></li>
                         <li><Link href="/contact" className="hover:underline">Contact Us</Link></li>
-                        <li><Link href="#" className="hover:underline">Login</Link></li>
+                        <li><Link href="/login" className="hover:underline">Login</Link></li>
                     </ul>
                 </div>
 
@@ -47,7 +47,7 @@ const Footer = () => {
                         <li><Link href="#" className="hover:underline">Gallery</Link></li>
                         <li><Link href="#" className="hover:underline">Pricing</Link></li>
                         <li><Link href="#" className="hover:underline">Feature Index</Link></li>
-                        <li><Link href="#" className="hover:underline">Login</Link></li>
+                        <li><Link href="/login" className="hover:underline">Login</Link></li>
                         <li><Link href="#" className="hover:underline">Help & Support</Link></li>
                     </ul>
                 </div>

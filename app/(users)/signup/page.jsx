@@ -20,7 +20,6 @@ const SignupPage = () => {
 
   const onSubmit = (data) => {
     console.log("Signup Data:", data);
-    
     reset();
     router.push('/login');
   };
@@ -32,7 +31,7 @@ const SignupPage = () => {
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
 
-          {/* Full Name */}
+          {/*  Name */}
           <div>
             <input
               type="text"
