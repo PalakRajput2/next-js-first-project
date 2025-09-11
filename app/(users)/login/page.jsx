@@ -6,6 +6,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { loginValidationSchema } from "./validations/loginValidation"
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { Check } from 'lucide-react';
 const LoginPage = () => {
   const router = useRouter();
 
@@ -57,11 +58,13 @@ const LoginPage = () => {
 
           <button
             type="submit"
-            className="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-md font-semibold transition cursor-pointer"
+            className="w-full bg-pink-500 hover:bg-pink-600 text-white py-2 rounded-md font-semibold transition cursor-pointer"
           >
             Login
           </button>
-          <p>Want to create an account ? <Link href="/signup" className='underline hover:text-pink-600 cursor-pointer' >Sign up</Link></p>
+          <div className='flex gap-3 mb-2'>   <input type='checkbox'/><p>Remember Me</p>
+    </div>
+          <p>Want to create a new account ? <Link href="/signup" className='underline hover:text-pink-600 cursor-pointer' >Sign up</Link></p>
         </form>
       </div>
     </div>
